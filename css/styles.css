@@ -66,9 +66,8 @@ align-items: center;
       font-size: 1.125rem;
       color: #ffffff;
     }
-    .btn{
-        height: ;
-    }
+    
+    
     .hero .btn img {
         position: relative;
         top: 50px;
@@ -138,7 +137,7 @@ align-items: center;
     }
     .section {
         display: flex;
-        flex-wrap:;
+       
       padding: 60px 40px;
     }
     .section:nth-child(even) {
@@ -155,7 +154,7 @@ align-items: center;
     .testimonial blockquote {
       font-size: 1.25rem;
       color: #555;
-      quotes: "“" "”";
+    
     }
     .testimonial blockquote:before {
       content: open-quote;
