@@ -1,5 +1,8 @@
 ---
 import Plantilla from "../layouts/plantilla.astro"
+import { Image, Picture } from 'astro:assets';
+import Gernika from '../assets/Gernika.jpg';
+import fondo from '../assets/fondo.jpg';
 
 ---
 
@@ -8,10 +11,13 @@ import Plantilla from "../layouts/plantilla.astro"
         
 		
 		<section class="hero" id="hero">
+			
 			<h1>Solución SaaS para tu negocio</h1>
+
 			<p>Gestiona tus clientes, datos y finanzas con una plataforma moderna y eficiente.</p>
 			<div class="btn">
-				<img src="/images/fondo.jpg" alt="Imagen hero" />
+				<!-- <img src="/images/fondo.jpg" alt="Imagen hero" /> -->
+				<Image src={fondo} alt="" />
 			</div>
 		  </section>
 		  <div class="nosotros"> <div class="nosotros-item"><span class="grande">Hazlo con nosotros</span> <br>
