@@ -1,0 +1,27 @@
+---
+import Footer from "../components/footer.astro";
+import Header from "../components/header.astro"; 
+const {titulo, description, platon} = Astro.props
+import { ClientRouter } from "astro:transitions";
+import { Image, Picture } from 'astro:assets';
+import Gernika from '../images/Gernika.jpg';
+---
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="">
+        <title>{titulo}</title>
+        <meta name="description" content={description}>
+        <ClientRouter />
+    </head>
+    <body>
+        <h1>{platon}</h1>
+        <p>aaaaaaaaaaaaa</p>
+        <Image src={Gernika} alt="aa" />
+        <Header />
+        <slot />
+        <Footer />
+
+    </body>
+</html>
