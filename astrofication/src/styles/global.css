@@ -116,6 +116,7 @@ a:hover {
 html, body {
   height: 100%;
   margin: 0;
+  display: flex;
 }
 body {
     margin: 0;
@@ -192,9 +193,14 @@ align-items: center;
     font-size: 1.125rem;
     color: #ffffff;
   }
-  
+  .btn {
+
+
+  }
   
   .hero .btn img {
+    height: fit-content;
+    width: fit-content;
       position: relative;
       top: 50px;
       border: 1px solid rgb(139, 139, 139);
