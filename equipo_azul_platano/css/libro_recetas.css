@@ -1,0 +1,191 @@
+
+*{
+    margin: 0px;
+    gap: 0px;
+    border-width: 0px;
+    font-family: var(--font);
+}
+
+
+.section{
+
+    display: flex; 
+    height: 540px;
+    width: 100%;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-image: image-set(
+        url("../assets/images/libro-recetas/Hnos-Torres-cabecera.avif") type("image/avif"),
+        url("../assets/images/libro-recetas/Hnos-Torres-cabecera.webp") type("image/webp"),
+        url("../assets/images/libro-recetas/Hnos-Torres-cabecera.jpeg") type("image/jpeg")
+    );
+    
+}
+
+.section__titulo{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color:rgba(0, 40, 86, 0.6);
+    position: absolute;
+    color: var(--blanco);
+    font-weight:900;
+    text-align: left;
+    width: 730px;
+    height: 120px;
+    font-size: 40px;
+    margin-top: 100px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-top: 20px;
+    font-family: var(--font);
+}
+.barra{
+
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: var(--azul);
+    height: 50px;
+    gap: 1px;
+    color: var(--blanco);
+    font-family: var(--font);
+    
+
+}
+.barra__enlace--principal{ 
+
+    display: flex;
+    width: 140px;
+    height: 36px;
+    font-size: 14px;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+}
+
+.barra__enlace--secundario{ 
+    display: flex;
+    width: 400px;
+    height: 36px;
+    font-size: 14px;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    color: var(--amarillo);
+    text-decoration: none;
+}
+
+
+.barra__enlace--principal:hover{
+        
+        background-color: var(--azul);
+        color: var(--amarillo);
+    }
+
+.barra__enlace--secundario:hover{
+        
+        background-color: var(--azul);
+        color: var(--amarillo);
+    }
+
+.main{
+
+        display: flex; 
+        height: 540px;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+    
+    }
+.strong{
+    font-weight: 500;
+}
+.main__texto--principal{
+
+        flex-direction: column;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 140px;
+        width: 80%;
+        font-size: 30px;
+        padding-top: 70px;
+        color: var(--azul);
+        font-weight: 200;
+    }
+.main__texto--secundario{
+
+        flex-direction: column;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 80px;
+        width: 80%;
+        font-size: 25px;
+        padding-top: 0px;
+        color: var(--azul);
+        font-weight: 200;
+
+    }
+.main__texto--terciario{
+
+        flex-direction: column;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 30px;
+        width: 80%;
+        font-size: 15px;
+        padding-top: 0px;
+        color: var(--azul);
+        font-weight: 200;
+
+    }
+.main__descarga{
+
+        display: flex;
+        width: 380px;
+        height: 36px;
+        font-size: 14px;
+        margin-left: 20px;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--amarillo);
+        color: var(--negro);
+        text-decoration: none;
+        font-weight: 900;
+        font-family: var(--font);
+
+    }
+
+.main__descarga:hover{
+            
+        background-color: var(--azul);
+        color: var(--amarillo);
+    }
+    
+    
+html, body { 
+    height: 100%; }  
+
+body {
+    display: flex;
+    flex-direction: column;     
+}
+
+
+

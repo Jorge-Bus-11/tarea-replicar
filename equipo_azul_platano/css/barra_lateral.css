@@ -1,0 +1,13 @@
+.img--pdc-icon {
+
+    position: absolute;
+    z-index: 1;
+    top: 135px;
+    left: -145px;
+    transition-property: left;
+    transition-duration: 1s;
+    &:hover {
+        left: 0px;
+    }
+    
+}

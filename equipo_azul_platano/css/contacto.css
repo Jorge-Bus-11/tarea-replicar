@@ -1,0 +1,194 @@
+* {
+    font-family: 'Gotham';
+    margin: 0;
+}
+
+.section__div--uno {
+    
+    width: 100%;
+    height: 925px;
+    border-top: 13px solid var(--amarillo);
+    border-bottom: 13px solid var(--amarillo);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url('../assets/images/contacto/pdc-contacto-cab.jpg');
+    background-image: image-set(url("../assets/images/contacto/pdc-contacto-cab.avif") type("image/avif"),
+        url("../assets/images/contacto/pdc-contacto-cab.webp") type("image/webp"),
+        url("../assets/images/contacto/pdc-contacto-cab.jpg") type("image/jpeg"));
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.section__div--sombreado {
+    width: 62%;
+    height: 150px;
+    background-color: var(--azul-tranparente);
+}
+
+.section__div--h1 {
+    text-transform: uppercase;
+    font-size: 45px;
+    color: var(--blanco);
+    margin-top: 50px;
+    margin-left: 60px;
+    font-weight: bold;
+}
+.section--h2 {
+    text-transform: uppercase;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    color: var(--azul);
+}
+
+.section__div--dos {
+    width: 100%;
+    height: 650px;
+    border-top: 13px solid var(--amarillo);
+    border-bottom: 13px solid var(--amarillo);   
+    margin-bottom: 150px; 
+    background-image: url('../assets/images/contacto/pdc-inicio-recetas-bg.jpg');
+    background-image: image-set(url("../assets/images/contacto/pdc-inicio-recetas-bg.avif") type("image/avif"),
+        url("../assets/images/contacto/pdc-inicio-recetas-bg.webp") type("image/webp"),
+        url("../assets/images/contacto/pdc-inicio-recetas-bg.jpg") type("image/jpeg"));
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.section__div--h3 {
+    color: var(--blanco);
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-top: 50px;
+    text-align: center;
+}
+.section__div--columna {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    text-align: center;
+    font-size: 25px;
+    color: var(--blanco);
+    margin-top: 50px;
+}
+.div__columna--info {
+    width: 20%;
+}
+
+.div__columna--imagenuno {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    justify-self: center;
+    background-image: url('../assets/images/contacto/PDC-contacto-ico-direccion.png');
+    background-image: image-set(url("../assets/images/contacto/PDC-contacto-ico-direccion.avif") type("image/avif"),
+    url("../assets/images/contacto/PDC-contacto-ico-direccion.webp") type("image/webp"),
+    url("../assets/images/contacto/PDC-contacto-ico-direccion.png") type("image/png"));
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.div__columna--imagendos {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    justify-self: center;
+    background-image: url('../assets/images/contacto/PDC-contacto-ico-telefono.png');
+    background-image: image-set(url("../assets/images/contacto/PDC-contacto-ico-telefono.avif") type("image/avif"),
+    url("../assets/images/contacto/PDC-contacto-ico-telefono.webp") type("image/webp"),
+    url("../assets/images/contacto/PDC-contacto-ico-telefono.png") type("image/png"));
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.div__columna--imagentres {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    justify-self: center;
+    background-image: url('../assets/images/contacto/PDC-contacto-ico-email.png');
+    background-image: image-set(url("../assets/images/contacto/PDC-contacto-ico-email.avif") type("image/avif"),
+        url("../assets/images/contacto/PDC-contacto-ico-email.webp") type("image/webp"),
+        url("../assets/images/contacto/PDC-contacto-ico-email.png") type("image/png"));
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.div--azul {
+    height: 80px;
+    width: 100%;
+    background-color: var(--banner-top);
+    margin-bottom: 0px;
+}
+.div__pie {
+    height: 350px;
+    width: 100%;
+    margin-top: 0pxs;
+    margin-bottom: 150px;
+    background-image: url('../assets/images/contacto/WEB_.jpg');
+    background-image: image-set(url("../assets/images/contacto/WEB_.avif") type("image/avif"),
+        url("../assets/images/contacto/WEB_.webp") type("image/webp"),
+        url("../assets/images/contacto/WEB_.jpg") type("image/jpeg"));
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.div__columna--p a {
+    color: var(--blanco);        
+    text-decoration: none;       
+}
+
+.div__columna--p a:hover,
+.div__columna--p a:focus {
+    color: var(--amarillo);       
+    text-decoration: underline;  
+}
+
+.div__pie--cartel {
+    height: 50%;
+    width: 60%;
+    background-color: var(--azul-tranparente);
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+}
+.div__platano--h2 {
+    font-size: 30px;
+    color: var(--blanco);
+    margin-left: 25px;
+    text-transform: uppercase;
+}
+.div__platano--h3 {
+    font-size: 25px;
+    color: var(--blanco);
+    margin-left: 25px;
+    text-transform: uppercase;
+}
+.div__platano--button {
+    font-size: 28px;
+    color: var(--azul);
+    margin-left: 25px;
+    height: 50px;
+    width: 225px;
+    background-color: var(--amarillo);
+    text-transform: uppercase;
+    border: none;
+    transition-property: color, background-color;
+    &:hover {
+        color: var(--amarillo); 
+        background-color: var(--azul); 
+    }
+    .div__platano--a {
+        font-size: inherit;
+        color: inherit;
+        text-decoration-line: none;
+    }
+}

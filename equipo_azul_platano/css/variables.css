@@ -1,0 +1,43 @@
+:root {
+
+    --azul: #002856;
+    --amarillo: #FFD100;
+    --gris-noticias: #DFDFDF;
+    --blanco: #ffffff;
+    --negro: #000000;
+    --texto-recetas: #444444;
+    --font: 'Gotham';
+    --amarillo-transparente: rgba(255, 209, 0, 0.7);
+    --azul-tranparente: rgba(0, 40, 86, 0.65); 
+    --fondo-footer: #DFDFDF;
+    --color-header: #142856;
+    --hambuger: #4338ca; 
+    --banner-top: #DEF0F2;
+    
+  /* Colores de texto Barra Lateral */
+  /* Colores de Platano de Canarias */
+  /* El original es el 2 */
+    --color-barraletra1: white;
+    --color-barraletra2: #FFD100;
+    --color-barraletra3: red;
+
+    --color-barraletrahover1: #ffcc00;
+    --color-barraletrahover2: white;
+
+  /* Colores para Pagina Test */
+    --color--test1: red;
+    --color--test2: yellow;
+
+  /* -- var(--color-barralafondo); */
+
+
+
+
+
+
+    
+}
+
+
+
+

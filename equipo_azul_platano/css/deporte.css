@@ -1,0 +1,79 @@
+* {font-family: 'Gotham';
+text-align: center;
+font-weight: 300;
+color: var(--azul);
+margin: 0px 0px 10px 0px;}
+
+
+/* CSS Imagenes */
+.section__picture--imagenplatano { width: 100%; height: auto;}
+.section__picture--imagennadal { width: 250px; height: 57px; margin: 5px 362px;}
+.section__picture--imagendepote { width: 90%; height: auto;}
+.figure__picture--imagen { width: 300px; height: auto;}
+
+
+/* CSS Linea amarilla */
+.linea--amarilla {
+    height: 7px;
+    width: 100%;
+    background-color: var(--amarillo);
+}
+
+/* CSS  fuente*/
+
+.section__h1 {
+    font-size: 43px;
+    margin: 20px 0px 10px;
+}
+.section__h2 {
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.section__h3 {
+    font-size: 32px;
+    font-weight: 400;
+}
+.section__h4 {
+    font-size: 22px;
+}
+.h1__span--porcentaje {
+    color: var(--azul);
+    font-weight: bold;
+}
+.section__p {
+    font-size: 25px;
+    margin: 10px 0px 10px 0px;
+}
+
+/* CSS Columnas */
+.section__div {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    margin-left: 75px;
+}
+
+.dos__div--columna {
+    width: 25%;
+    padding: 10px 35px;
+    display: inline-block;
+}
+.div__img {
+    width: 250px;
+    height: auto;
+}
+
+/* CSS Grid */
+.tres__div--grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.div__grid--contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px;
+    }

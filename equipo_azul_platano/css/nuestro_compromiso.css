@@ -1,0 +1,271 @@
+/* Círculo numerado */
+.circulo {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: var(--color-header);
+    color: var(--color-barraletra2);
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: var(--font);
+}
+
+.nuestrocompromiso {
+    padding-top: 15px;
+    /* espacio por el menú fijo */
+    text-align: center;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Todos los artículos centrados */
+.nuestrocompromiso article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    text-align: center;
+}
+
+
+/* REGLAS DE MEJORAS ACCESIBILIDAD */
+p {
+    font-family: var(--font);
+    font-size: 1.2rem;
+    /*   text-align: justify; */
+    line-height: 1.6;
+    /* Espacio entre líneas */
+    max-width: 75ch;
+    /* Longitud óptima de línea (~50-75 caracteres) */
+    text-align: left;
+    /* Evitar justificación completa */
+    word-wrap: break-word;
+    /* Evita que las palabras largas rompan el diseño */
+}
+
+/* Distintos anchos por artículo */
+/* Articulo 1 */
+.nuestrocompromiso article:nth-of-type(1) {
+    max-width: 780px;
+    margin-bottom: 30px;
+    font-family: var(--font);
+    text-align: left;
+    /* background-color: red; */
+
+}
+
+/* Articulo 2 */
+.nuestrocompromiso article:nth-of-type(2) {
+    max-width: 580px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    /* background-color: red; */
+}
+
+/* Articulo 3 */
+.nuestrocompromiso article:nth-of-type(3) {
+    max-width: 580px;
+    /*   background-color: red; */
+}
+
+/* Articulo 4 */
+.nuestrocompromiso article:nth-of-type(4) {
+    max-width: 580px;
+    /* background-color: red; */
+}
+
+/* Articulo 5 */
+.nuestrocompromiso article:nth-of-type(5) {
+    max-width: 580px;
+    /*   background-color: red; */
+}
+
+/* Articulo 6 */
+.nuestrocompromiso article:nth-of-type(6) {
+    max-width: 580px;
+    /*     background-color: red; */
+}
+
+
+.mejoras__h1 {
+    font-size: 1.9rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-family: var(--font);
+}
+
+.mejoras__h2 {
+    font-size: 1.4rem;
+    /* font-weight: bold; */
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.mi-imagen {
+    width: 225px;
+    /* ancho fijo */
+    height: auto;
+    /* mantiene la proporción */
+}
+
+.mi-imagen2 {
+    width: 180px;
+    /* ancho fijo */
+    height: auto;
+    /* mantiene la proporción */
+    margin-bottom: 50px;
+}
+
+.mi-imagen3 {
+    width: 90px;
+    /* ancho fijo */
+    height: auto;
+    /* mantiene la proporción */
+    margin-bottom: 50px;
+}
+
+
+/*  */
+.contenedor__header {
+    margin-top: 73px;
+    width: 100%;
+    height: 550px;
+    /* o el alto que quieras */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    /* centra verticalmente */
+    justify-content: center;
+    /* centra horizontalmente */
+    color: white;
+}
+
+/* .cab-titulo h1 {
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    margin: 0;
+} */
+
+.cab-titulo {
+    background-color: var(--azul-tranparente);
+    /* azul semitransparente */
+    width: 810px;
+    /* ancho del rectángulo */
+    height: 113px;
+    /* alto del rectángulo */
+    padding-top: 20px;
+    /* espacio arriba */
+    padding-right: 10px;
+    /* espacio derecha */
+    padding-bottom: 20px;
+    /* espacio abajo */
+    padding-left: 25px;
+
+    margin-top: 60px;
+    margin-left: 540px;
+    margin-right: 0px;
+    /* espacio izquierda */
+    display: flex;
+    /* para centrar el texto dentro */
+    /* align-items: center; */
+    /* centra verticalmente el texto */
+    /* justify-content: center; */
+    /* centra horizontalmente el texto */
+    box-sizing: border-box;
+    /* para que padding no sume al ancho/alto */
+}
+
+.cab-titulo h1 {
+    color: var(--blanco);
+    /* margin-left: 200px; */
+    margin-top: 9px;
+    margin-left: 6px;
+    font-size: 2.3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* MENU CAJA */
+.menu-caja {
+    height: 25px;
+    background-color: var(--color-header);
+    /* azul */
+    padding: 10px 20px;
+
+    display: flex;
+    /* contenedor flex */
+    justify-content: center;
+    /* centra horizontal */
+    align-items: center;
+    /* centra vertical */
+    margin-bottom: 20px;
+}
+
+.menu-caja ul {
+    list-style: none;
+    /* quita viñetas */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* coloca los <li> en línea */
+    gap: 20px;
+    /* espacio entre enlaces */
+}
+
+.menu-caja li {
+    display: inline;
+    /* cada elemento en línea */
+}
+
+.menu-caja a {
+    color: var(--blanco);
+    /* texto blanco */
+    text-decoration: none;
+    /* quita subrayado */
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+/* .menu-caja a:hover {
+    color: var(--color-barraletra2);
+} */
+
+.menu-caja a.active {
+    color: var(--color-barraletra2);
+    /* el color que quieres cuando está activo */
+}
+
+
+
+/*   GENERALES  */
+
+
+.accesibilidad {
+    line-height: 1.6;
+    /* Espacio entre líneas */
+    max-width: 75ch;
+    /* Longitud óptima de línea (~50-75 caracteres) */
+    text-align: left;
+    /* Evitar justificación completa */
+    word-wrap: break-word;
+    /* Evita que las palabras largas rompan el diseño */
+}
+
+
+.banner{
+
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+
+

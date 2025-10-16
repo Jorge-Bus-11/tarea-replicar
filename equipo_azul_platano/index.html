@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plátano de Canarias - El sabor de lo nuestro.: Plátano de Canarias.</title>
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/fuentes.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/comun_header_nav.css">
+    <link rel="stylesheet" href="css/barra_lateral.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/comun_footer.css">
+    <link rel="icon" href="assets/images/icons/faviconV2.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <header class="header">
+        <!-- LOGO Y FORMULARIO  -->
+        <!-- Se pone aparte en mejoras puede tener comportamiento distinto -->
+        <!-- <nav> -->
+        <!-- Logo -->
+        <a href="index.html" class="header__logo">
+            <img src="assets/images/icons/pcd3.png" alt="Logo Plátanos" class="header__logo-img">
+        </a>
+
+        <!-- Formulario de búsqueda -->
+        <form action="https://www.google.com/search" method="GET" target="_blank" class="search-form">
+            <input type="text" name="q" class="search-form__input" placeholder="" size="25">
+            <button type="submit" class="search-form__button">
+                <img src="assets/images/icons/lupa.jpg" alt="Lupa" width="32" height="32">
+            </button>
+        </form>
+        <!-- </nav> -->
+
+        <!-- Menú de iconos sociales -->
+        <nav>
+            <ul class="social-menu">
+                <li class="social-menu__item">
+                    <a href="https://www.instagram.com/platano_decanarias/" target="_blank">
+                        <img src="assets/images/icons/Instagram.png" width="32" height="32" alt="Instagram">
+                    </a>
+                </li>
+                <li class="social-menu__item">
+                    <a href="https://www.facebook.com/platanodecanarias" target="_blank">
+                        <img src="assets/images/icons/Facebook.png" width="32" height="32" alt="Facebook">
+                    </a>
+                </li>
+                <li class="social-menu__item">
+                    <a href="https://www.youtube.com/user/momentoplatano" target="_blank">
+                        <img src="assets/images/icons/YouTube.png" width="32" height="32" alt="YouTube">
+                    </a>
+                </li>
+                <li class="social-menu__item">
+                    <a href="https://x.com/platanosiempre" target="_blank">
+                        <img src="assets/images/icons/Twitter.png" width="32" height="32" alt="Twitter">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Botón hamburguesa -->
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="hamburger">
+            <span class="hamburger__line"></span>
+            <span class="hamburger__line"></span>
+            <span class="hamburger__line"></span>
+        </label>
+
+        <!-- Menú lateral -->
+        <nav class="menu menu--lateral">
+            <ul class="menu__list">
+                <li class="menu__title">Plátano de Canarias</li>
+                <li class="menu__item"><a href="index.html">INICIO</a></li>
+                <li class="menu__item"><a href="pages/deporte.html">LA FRUTA DEL DEPORTE ESPAÑOL</a></li>
+                <li class="menu__item"><a href="pages/platano_es.html">PLÁTANO ES</a></li>
+                <li class="menu__item"><a href="https://platanodecanarias.es/platano-de-canarias-cerca-de-casa/">PDC CERCA DE CASA</a></li>
+                <li class="menu__item"><a href="pages/nuestro_compromiso.html">NUESTRO COMPROMISO</a></li>
+                <li class="menu__item"><a href="https://platanodecanarias.es/nuestros-platanos/un-producto-unico/">NUESTROS PLÁTANOS</a></li>
+                <li class="menu__item"><a href="https://clubdefruterias.es/">CLUB DE FRUTERIAS</a></li>
+                <li class="menu__item"><a href="pages/recetas.html">RECETAS</a></li>
+                <li class="menu__item"><a href="https://platanodecanarias.es/blog/">BLOG Y NOTICIAS</a></li>
+                <li class="menu__item"><a href="https://platanodecanarias.es/asprocan/que-es-asprocan/">ASPROCAN</a></li>
+                <li class="menu__item"><a href="pages/contacto.html">CONTACTO</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+    
+                                <!--Inicio barra lateral-->
+        <picture>
+
+            <source srcset="assets/images/pdc-ico-igp.avif" type="image/avif">
+            <source srcset="assets/images/pdc-ico-igp.webp" type="image/webp">
+            <img class="img--pdc-icon" src="assets/images/pdc-ico-igp.png" alt="Imagen logotipo de Platano de Canarias con el texto - Ser únicos no es facil, pero nuestro producto lo es">
+
+        </picture>
+                                <!--------Inicio banner deporte --------->
+
+
+        <section class="banner"> 
+
+            
+
+            <div class="banner__fondo banner--deporte"></div>
+
+                <div class="banner__panel">
+
+                    <h1 class="banner__titulo">La fruta del deporte español</h1>
+
+                    <a href="pages/deporte.html" class="boton boton--largo boton--banner">Quiero ver más</a>
+
+                </div>
+
+
+        </section>
+
+                                <!-------- Inicio banner plátanos --------->
+
+
+        <section class="banner">
+
+            <div class="banner__fondo  banner--platanos"></div>
+
+            <div class="banner__panel">
+
+                <h2 class="banner__titulo">Nuestros plátanos</h2>
+
+                <p class="banner__parrafo">Diferencia entre el plátano y la banana</p>
+
+                <a href="https://platanodecanarias.es/nuestros-platanos/diferencias-entre-el-platano-de-canarias-y-la-banana/" class="boton boton--largo boton--banner">Quiero ver más</a>
+
+            </div>
+
+        </section>
+
+
+                                <!------ Inicio noticias ------>
+                                
+        <article class="noticias">
+
+            <div class="noticias__contenedor">
+            
+                <h2 class="noticias__titulo">Últimas noticias</h2>
+            
+                <ul class="noticias__lista">
+                
+                                        <!------Noticia uno------->
+                
+                    <li class="noticias__item">
+                    
+                        <a href="https://platanodecanarias.es/brand-footprint-2025-kantar-worldpanel/" class="noticias__enlace" title="Plátano de Canarias, reelegida marca más consumida en el sector de frutas y verduras según el informe Brand Footprint 2025 de Kantar Wordlpanel - Plátano de Canarias.">
+                        
+                            <picture class="noticias__picture">
+                            
+                            <source srcset="assets/images/home/home-noticias(1).webp" type="image/webp">
+                            <img class="noticias__imagen" src="assets/images/home/home-noticias(1).jpg" alt="Ranking sectoriales sector alimentación" loading="lazy"> <!--Retrasa la carga de imagen hasta que sea necesario-->
+                            
+                            </picture>
+                        
+                            <div class="noticias__contenido">
+                            
+                                <time class="noticias__fecha" datetime="2025-05-29">29 Mayo 2025</time>
+                            
+                                <h3 class="noticias__encabezado">Plátano de Canarias, reelegida marca más consumida en el sector de frutas y verduras...</h3>
+                            
+                                <p class="noticias__parrafo">Gracias a más de 16,2 millones de hogares por confiar. Plátano de Canarias, reelegida marca más consumida en el...</p>
+                            
+                                <p class="boton boton--corto">Leer más</p>
+                            
+                            </div>
+                        
+                        </a>
+                    
+                    </li>
+
+
+                                        <!------Noticia dos------->
+
+                
+                    <li class="noticias__item">
+                    
+                        <a href="https://platanodecanarias.es/vicky-lopez-nueva-embajadora-platano-de-canarias/" class="noticias__enlace" title="Vicky López, nueva embajadora de plátano de Canarias-Plátano de Canarias.">
+                        
+                            <picture class="noticias__picture">
+                            
+                            <source srcset="assets/images/home/home-noticia(2).webp" type="image/webp">
+                            <img class="noticias__imagen" src="assets/images/home/home-noticia(2).jpg" alt="Vicky López sujetando varios plátanos de Canarias" loading="lazy"> <!--Retrasa la carga de imagen hasta que sea necesario-->
+                            
+                            </picture>
+                        
+                            <div class="noticias__contenido">
+                            
+                                <time class="noticias__fecha" datetime="2025-05-20">20 Mayo 2025</time>
+                            
+                                <h3 class="noticias__encabezado">Vicky López, nueva embajadora de plátano de Canarias.</h3>
+                            
+                                <p class="noticias__parrafo">La joven estrella de la Selección Española, Golden Girl 2024, se suma al equipo de Plátano de Canarias para...</p>
+                            
+                                <p class="boton boton--corto">Leer más</p>
+                            
+                            </div>
+                        
+                        </a>
+                    
+                    </li>
+
+                                        <!------Noticia tres------->
+
+                
+                    <li class="noticias__item">
+                    
+                        <a href="https://platanodecanarias.es/publicitacion-del-resultado-del-concurso-para-la-seleccion-de-agencias-de-promocion-para-la-ejecucion-del-programa-europeo-proper-diet-2026-2029-para-platano-de-canarias-asprocan/" class="noticias__enlace" title="Publicitación del resultado del concurso para la seleccion de agencias de promoción para la ejecución del programa europeo proper diet 2026-2029 para plátano de canarias (Asprocan) - Plátano de Canarias">
+                        
+                            <picture class="noticias__picture">
+                            
+                            <source srcset="assets/images/home/home-noticia(3).webp" type="image/webp">
+                            <img class="noticias__imagen" src="assets/images/home/home-noticia(3).jpg" alt="Imagen de varios plátanos de canarias en el aire con un fondo azul" loading="lazy"> <!--Retrasa la carga de imagen hasta que sea necesario-->
+                            
+                            </picture>
+                        
+                            <div class="noticias__contenido">
+                            
+                                <time class="noticias__fecha" datetime="2025-04-21">21 Abril 2025</time>
+                            
+                                <h3 class="noticias__encabezado">Publicitación del resultado del concurso para la seleccion de agencias de promoción para la...</h3>
+                            
+                                <p class="noticias__parrafo">Descargar &laquoPublicitación del resultado del concurso&raquo</p>
+                            
+                                <p class="boton boton--corto">Leer más</p>
+                            
+                            </div>
+                        
+                        </a>
+                    
+                    </li>
+        
+                </ul>
+
+                <a href="https://platanodecanarias.es/blog/" class="boton boton--largo">Quiero ver más</a>
+
+            </div>
+
+        </article>
+
+
+                                <!-------Inicio recetas-------->
+
+
+        <article class="recetas">
+
+        <div class="recetas__fondo"></div>
+
+        <div class="recetas__contenedor">
+
+            <h2 class="recetas__titulo">Recetas</h2>
+
+            <ul class="recetas__lista">
+
+
+                                <!------Inicio receta uno------>
+
+
+            <li class="recetas__item">
+
+                <a class="recetas__tarjeta" href="https://platanodecanarias.es/recetas/receta-de-karlos-arguinano-batido-de-platano-de-canarias-con-muesli-de-chocolate/" title="Batido de plátano de canarias con muesli de chocolate - Plátano de Canarias">
+
+                <picture class="recetas__picture">
+
+                    <source srcset="assets/images/home/home-receta(1).webp" type="image/webp">
+                    <img class="recetas__imagen" src="assets/images/home/home-receta(1).jpg" alt="Batido de plátano en un tarro de cristal con muesli y dos plátanos Canarios al fondo" loading="lazy">
+
+                </picture>
+
+                <div class="recetas__contenido">
+
+                    <h3 class="recetas__encabezado">Batido de plátano de canarias con muesli de chocolate</h3>
+                    <p class="boton boton--corto">Leer más</p>
+
+                </div>
+
+                </a>
+
+            </li>
+
+                            <!------Inicio receta dos------>
+
+
+            <li class="recetas__item">
+
+                <a class="recetas__tarjeta" href="https://platanodecanarias.es/recetas/bocados-de-manitas-y-platanos-de-canarias-receta-de-karlos-arguinano/" title="Bocados de manitas y plátanos de Canarias (receta de Karlos Arguiñano) - Plátanos de Canarias">
+
+                <picture class="recetas__picture">
+
+                    <source srcset="assets/images/home/home-receta(2).webp" type="image/webp">
+                    <img class="recetas__imagen" src="assets/images/home/home-receta(2).jpg" alt="Plato de manitas de cerdo con plátano de Canarias a modo de acompañamiento" loading="lazy">
+
+                </picture>
+
+                <div class="recetas__contenido">
+
+                    <h3 class="recetas__encabezado">Bocados de manitas y plátanos de Canarias (receta de Carlos Arguiñano)</h3>
+                    <p class="boton boton--corto">Leer más</p>
+
+                </div>
+
+                </a>
+            
+            </li>
+
+
+
+                        <!------Inicio receta tres------>
+
+
+            <li class="recetas__item">
+
+                <a class="recetas__tarjeta" href="https://platanodecanarias.es/recetas/brochetas-de-platano-de-canarias-y-otras-frutas-frescas/" title="Brochetas de plátano de Canarias y otras frutas frescas - Plátanos de Canarias.">
+
+                <picture class="recetas__picture">
+
+                    <source srcset="assets/images/home/home-receta(3).webp" type="image/webp">
+                    <img class="recetas__imagen" src="assets/images/home/home-receta(3).jpg" alt="Brochetas de frutas con una fresa, una uva, un plátano y un kiwi" loading="lazy">
+
+                </picture>
+
+                <div class="recetas__contenido">
+
+                    <h3 class="recetas__encabezado">Brochetas de plátano de Canarias y otras frutas frescas</h3>
+                    <p class="boton boton--corto">Leer más</p>
+
+                </div>
+
+                </a>
+
+            </li>
+
+                        <!------Inicio receta cuatro------>
+
+
+            <li class="recetas__item">
+
+                <a class="recetas__tarjeta" href="https://platanodecanarias.es/recetas/brick-de-platano-de-canarias-flambeado-con-canela-y-ron-negro/" title="Brick de plátano de Canarias, flambeado con canela y ron negro - Plátanos de Canarias.">
+
+                <picture class="recetas__picture">
+
+                    <source srcset="assets/images/home/home-receta (4).webp" type="image/webp">
+                    <img class="recetas__imagen" src="assets/images/home/home-receta (4).jpg" alt="Brochetas de frutas con una fresa, una uva, un plátano y un kiwi" loading="lazy">
+
+                </picture>
+
+                <div class="recetas__contenido">
+
+                    <h3 class="recetas__encabezado">Brick de plátano de Canarias, flambeado con canela y ron negro</h3>
+                    <p class="boton boton--corto">Leer más</p>
+
+                </div>
+
+                </a>
+
+            </li>
+
+            </ul>
+        
+            <a href="pages/recetas.html" class="boton boton--largo">Quiero ver más</a> <!--Unir enlace a recetas-->
+
+        </div>
+        
+        </article>
+
+    </main>
+
+<!-- Footer -->
+
+    <footer class="footer" role="contentinfo">
+
+        <div class="footer__container">
+
+            <div class="footer__copyright">© 2025 Copyright platanodecanarias.es</div>
+
+            <div class="footer__enlaces">
+            <a href="pages/terminos_legales.html" class="footer__enlace">Términos Legales</a>
+            <a href="assets/docs/cookies.pdf" class="footer__enlace" download="PoliticadeCookies-ES" target="_blank">Política de Cookies</a>
+            <a href="pages/contacto.html" class="footer__enlace ">Contacto</a>
+            </div>
+
+
+            <picture class="footer__logos">
+
+                <source srcset= "assets/images/Logos_footer-1.avif" type="image/avif"> 
+                <source srcset="assets/images/Logos_footer-1.webp" type="image/webp"> 
+                <img src="assets/images/Logos_footer-1.png" alt="Logos de Origen y Aenor" loading="lazy"> 
+
+            </picture>
+        
+        
+        </div>
+
+    </footer>
+
+
+
+
+</html>
+

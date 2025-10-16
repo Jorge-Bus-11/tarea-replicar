@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recetas archivo - Plátano de Canarias: Plátano de Canarias.</title>
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/fuentes.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/comun_header_nav.css">
+    <link rel="stylesheet" href="../css/barra_lateral.css">
+    <link rel="stylesheet" href="../css/recetas.css">
+    <link rel="stylesheet" href="../css/comun_footer.css">
+    <link rel="icon" href="../assets/images/icons/faviconV2.png" type="image/x-icon">
+</head>
+
+<body>
+
+<header class="header">
+        <!-- LOGO Y FORMULARIO  -->
+        <!-- Se pone aparte en mejoras puede tener comportamiento distinto -->
+        <!-- <nav> -->
+        <!-- Logo -->
+        <a href="../index.html" class="header__logo">
+            <img src="../assets/images/icons/pcd3.png" alt="Logo Plátanos" class="header__logo-img">
+        </a>
+
+        <!-- Formulario de búsqueda -->
+        <form action="https://www.google.com/search" method="GET" target="_blank" class="search-form">
+            <input type="text" name="q" class="search-form__input" placeholder="" size="25">
+            <button type="submit" class="search-form__button">
+                <img src="../assets/images/icons/lupa.jpg" alt="Lupa" width="32" height="32">
+            </button>
+        </form>
+        <!-- </nav> -->
+
+        <!-- Menú de iconos sociales -->
+        <nav>
+            <ul class="social-menu">
+                <li class="social-menu__item">
+                    <a href="https://www.instagram.com/platano_decanarias/" target="_blank">
+                        <img src="../assets/images/icons/Instagram.png" width="32" height="32" alt="Instagram">
+                    </a>
+                </li>
+                <li class="social-menu__item">
+                    <a href="https://www.facebook.com/platanodecanarias" target="_blank">
+                        <img src="../assets/images/icons/Facebook.png" width="32" height="32" alt="Facebook">
+                    </a>
+                </li>
+                <li class="social-menu__item">
+                    <a href="https://www.youtube.com/user/momentoplatano" target="_blank">
+                        <img src="../assets/images/icons/YouTube.png" width="32" height="32" alt="YouTube">
+                    </a>
+                </li>
+                <li class="social-menu__item">
+                    <a href="https://x.com/platanosiempre" target="_blank">
+                        <img src="../assets/images/icons/Twitter.png" width="32" height="32" alt="Twitter">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Botón hamburguesa -->
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="hamburger">
+            <span class="hamburger__line"></span>
+            <span class="hamburger__line"></span>
+            <span class="hamburger__line"></span>
+        </label>
+
+        <!-- Menú lateral -->
+        <nav class="menu menu--lateral">
+            <ul class="menu__list">
+                <li class="menu__title">Plátano de Canarias</li>
+                <li class="menu__item"><a href="../index.html">INICIO</a></li>
+                <li class="menu__item"><a href="deporte.html">LA FRUTA DEL DEPORTE ESPAÑOL</a></li>
+                <li class="menu__item"><a href="https://platanodecanarias.es/platano-es/">PLÁTANO ES</a></li>
+                <li class="menu__item"><a href="https://platanodecanarias.es/platano-de-canarias-cerca-de-casa/">PDC CERCA DE CASA</a></li>
+                <li class="menu__item"><a href="nuestro_compromiso.html">NUESTRO COMPROMISO</a></li>
+                <li class="menu__item"><a href="https://platanodecanarias.es/nuestros-platanos/un-producto-unico/">NUESTROS PLÁTANOS</a></li>
+                <li class="menu__item"><a href="https://clubdefruterias.es/">CLUB DE FRUTERIAS</a></li>
+                <li class="menu__item"><a href="recetas.html">RECETAS</a></li>
+                <li class="menu__item"><a href="https://platanodecanarias.es/blog/">BLOG Y NOTICIAS</a></li>
+                <li class="menu__item"><a href="https://platanodecanarias.es/asprocan/que-es-asprocan/">ASPROCAN</a></li>
+                <li class="menu__item"><a href="contacto.html">CONTACTO</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!--Inicio barra lateral-->
+
+        
+        <picture>
+
+                <source srcset="../assets/images/pdc-ico-igp.avif" type="image/avif">
+                <source srcset="../assets/images/pdc-ico-igp.webp" type="image/webp">
+                <img class="img--pdc-icon" src="../assets/images/pdc-ico-igp.png" alt="Imagen logotipo de Platano de Canarias con el texto - Ser únicos no es facil, pero nuestro producto lo es">
+
+        </picture>
+
+
+        <section class="section">
+            <h1 class="section__titulo">RECETAS</h1>
+        </section>
+
+        <nav class="barra">
+            <a href="recetas.html" class="barra__enlace barra__enlace--principal">
+                RECETAS
+            </a>
+            <p>|</p>
+            <a href="libro_recetas.html" class="barra__enlace barra__enlace--secundario">
+                LIBRO DE RECETAS DE LOS HERMANOS TORRES
+            </a>
+        </nav>
+
+        <section class="main__recetas">
+
+        <!-- selector de comidas -->
+
+            <div class="selector">
+                <h2 class="selector__titulo">
+                    DIFICULTAD
+                </h2>
+                <ul class="selector__container">
+                    <li class="selector__boton selector__boton--chef"></li>
+                    <li class="selector__boton selector__boton--chef"></li>
+                    <li class="selector__boton selector__boton--chef"></li>
+                </ul>
+                <h2 class="selector__titulo">
+                    TIEMPO DE ESPERA
+                </h2>
+                <ul class="selector__container">
+                    <li class="selector__boton selector__boton--reloj"></li>
+                    <li class="selector__boton selector__boton--reloj"></li>
+                    <li class="selector__boton selector__boton--reloj"></li>
+                </ul>
+                <h2 class="selector__titulo">
+                    TIPOS DE PLATOS
+                </h2>
+                <ul class="selector__container--texto">
+                    <li class="selector__texto" tabindex="0">BASES</li>
+                    <li class="selector__texto" tabindex="0">BATIDOS Y CÓCTELES</li>
+                    <li class="selector__texto" tabindex="0">ENTRANTES</li>
+                    <li class="selector__texto" tabindex="0">MERIENDAS</li>
+                    <li class="selector__texto" tabindex="0">PLATO PRINCIPAL</li>
+                    <li class="selector__texto" tabindex="0">POSTRES</li>
+                    <li class="selector__texto" tabindex="0">SOPAS Y CREMAS</li>
+                </ul>
+            </div>
+
+                <!-- comidas a la derecha -->
+                
+            <section class="platos">
+                <div class="platos__container">
+                    <div class="platos__comidas platos__comidas--coliflor">
+                        <div class="platos__texto--50">
+                            <p>COLIFLOR CON BECHAMEL DE PLÁTANO </p>
+                            <div class="suma">+</div>
+                        </div>
+                    </div>
+                    <div class="platos__comidas platos__comidas--coctel">
+                        <div class="platos__texto--25">
+                            <div class="suma">+</div>
+                            <p >CÓCTEL ISLEÑO
+                                <br>
+                                <br>
+                            </p>
+                            <img src="../assets/images/recetas/perro.jpg" class="perro" alt="Alt de perro Sanchex para aumentar la accesibilidad en lighthouse">
+                            
+                        </div>
+                    </div>
+                    <div class="platos__comidas platos__comidas--tortilla">
+                        <div class="platos__texto--50">
+                            <p>TORTILLA DE CAMARONES Y PLÁTANO</p>
+                            <div class="suma">+</div>
+                        </div>
+                    </div>
+                    <div class="platos__comidas platos__comidas--ravioli">
+                        <div class="platos__texto--25">
+                            <p>RAVIOLIS DE FOIE Y PIEL DE PLÁTANO</p>
+                            <div class="suma">+</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- BANNER DEL PLATANO -->
+        
+        <aside class="banner">
+            <div class="banner__container">
+                <div class="banner__info">
+                        <div class="banner__título">CLUB DE FRUTERÍAS DE PLÁTANO DE CANARIAS</div>
+                        <div class="banner__subtítulo">DISFRUTA DE TODAS NUESTRAS VENTAJAS</div>
+                        <a class="banner__enlace" href="https://clubdefruterias.es/unete-al-club/">APÚNTATE</a>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Footer -->
+
+<footer class="footer" role="contentinfo">
+
+    <div class="footer__container">
+
+        <div class="footer__copyright">© 2025 Copyright platanodecanarias.es</div>
+
+        <div class="footer__enlaces">
+            <a href="#" class="footer__enlace">Términos Legales</a>
+            <a href="../assets/docs/cookies.pdf" class="footer__enlace" download="PoliticadeCookies-ES" target="_blank">Política de Cookies</a>
+            <a href="#" class="footer__enlace ">Contacto</a>
+        </div>
+        
+            
+        <picture class="footer__logos">
+
+            <source srcset= "../assets/images/Logos_footer-1.avif" type="image/avif"> 
+            <source srcset="../assets/images/Logos_footer-1.webp" type="image/webp"> 
+            <img src="../assets/images/Logos_footer-1.png" alt="Logos de Origen y Aenor"> 
+
+        </picture>
+
+    </div>
+
+</footer>
+
+</body>
+</html>

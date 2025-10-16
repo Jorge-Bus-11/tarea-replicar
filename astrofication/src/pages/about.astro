@@ -3,9 +3,28 @@ import Plantilla from "../layouts/plantilla.astro"
 import { Image, Picture } from 'astro:assets';
 import Gernika from '../assets/Gernika.jpg';
 import fondo from '../assets/fondo.jpg';
+import "../../../final/css.css" 
+import Gta from "../assets/carrusel1.avif"
 ---
+
+<!-- <Image src={fondo} alt="Imagen hero" /> -->
 <Plantilla>
+<h1>proyecto antiguo</h1>
+<div class="base">
+    <input id="b1" name="slide" type="radio" checked />
+    <input id="b2" name="slide" type="radio" />
+    <input id="b3" name="slide" type="radio" />
+    <div class="base-movil">
+    <label for="b1" class="imagen imagen1"><Image src={Gta} alt=""/></label>
+    <label for="b2" class="imagen imagen2"><Image src={Gernika} alt=""/></label>
+    <label for="b3" class="imagen imagen3"><Image src={fondo} alt=""/></label>
+    </div>
+</div>
+  
 
 
 
+
+
+</div>
 </Plantilla>

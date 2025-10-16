@@ -1,0 +1,116 @@
+
+    body {
+    color: var(--color-barraletra2);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    }
+
+    
+    .fondo-principal {
+    display: flex;
+    height: 540px;
+    width: 100%;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../assets/images/marca/nuestro.jpg");
+    background-image: image-set(
+        url("../assets/images/marca/nuestro.avif") type("image/avif"),
+        url("../assets/images/marca/nuestro.webp") type("image/webp"),
+        url("../assets/images/marca/nuestrojpg") type("image/jpeg")
+    );
+    
+    }
+
+    .fondo-principal__titulo {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: var(--azul-tranparente);
+    position: absolute;
+    color: var(--blanco);
+    font-weight: bold;
+    text-align: left;
+    width: 730px;
+    height: 120px;
+    font-size: 40px;
+    margin-top: 100px;
+    padding: 20px 0 30px 30px;
+    font-family: var(--font);
+    }
+
+    
+    .menu-subnav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--azul);
+    height: 50px;
+    gap: 1px;
+    color: var(--blanco);
+    font-family: var(--font);
+    }
+
+    .menu-subnav__link {
+    display: flex;
+    height: 36px;
+    font-size: 14px;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0 12px;
+    }
+
+    .menu-subnav__link--principal { 
+    width: 200px;
+    color: var(--blanco);
+    }
+
+    .menu-subnav__link--secundario { 
+    width: 150px;
+    color: var(--amarillo);
+    }
+
+    .menu-subnav__link:hover {
+    background-color: var(--azul);
+    color: var(--amarillo);
+    }
+
+    
+    .section__h1,
+    .section__p {
+    text-align: center;
+    color: var(--azul);
+    font-family: var(--font);
+    }
+
+    .section__h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    }
+
+    .section__p {
+    font-size: 25px;
+    text-align: justify;
+    font-weight: 300;
+    margin: 50px;
+    }
+
+    .foto {
+    display: block;
+    margin: 0 auto;
+    }
+
+    .banner{
+
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+

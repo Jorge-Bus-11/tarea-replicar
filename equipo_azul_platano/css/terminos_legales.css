@@ -1,0 +1,26 @@
+
+
+body{
+
+    background-color: var(--blanco);
+    color: var(--azul);
+    font-family: var(--font);
+    margin: 15%;
+    text-align: justify;
+    font-weight: lighter;
+
+
+}
+
+h1{
+
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+h2, p{
+
+    font-size: 14px;
+}

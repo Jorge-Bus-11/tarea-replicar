@@ -1,0 +1,405 @@
+
+
+
+
+body {
+
+    margin: 0; 
+    font-family: var(--font);
+    background-color: var(--blanco);
+
+}
+
+
+/*Banners principales*/
+
+
+.banner {
+
+    position: relative; 
+    display: flex; 
+    align-items: flex-start; 
+    justify-content: flex-end; 
+    height: 550px;
+    margin-bottom: 56px;
+    padding-left: 32px;
+    padding-right: 0;
+    
+
+}
+
+.banner__fondo {
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 0; 
+
+
+}
+
+.banner--deporte {
+
+    background-image: image-set(
+
+        url(../assets/images/home/home-banner-deporte.webp),
+        url(../assets/images/home/home-banner-deporte.jpg)
+
+    );
+    background-position: center 86%; 
+}
+
+.banner--platanos {
+
+    background-image: image-set(
+        url(../assets/images/home/home-banner-platanos.webp),
+        url(../assets/images/home/home-banner-platanos.jpg)
+
+    );
+    background-position: center 55%;
+}
+
+.banner__panel {
+
+    position: absolute; 
+    top: 255px; 
+    right: 0;
+    width: 720px;
+    padding: 20px 28px 20px 0;
+    background-color: var(--azul-tranparente); 
+    color: var(--blanco);
+    z-index: 1; 
+    display: flex; 
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    box-sizing: border-box;
+
+}
+
+.banner__titulo {
+
+    margin: 0; 
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-left: 25px;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+
+.banner__parrafo {
+
+    margin: 0;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-left: 25px;
+
+}
+
+
+/*Botones*/
+
+.boton {
+
+    background-color: var(--amarillo);
+    color: var(--azul);
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-flex; 
+    align-items: center;
+    justify-content: center;
+    width: fit-content; 
+    font-size: 14px;
+    border: none;
+    cursor: pointer; 
+
+}
+
+.boton--corto {
+
+    margin-top: auto; 
+    margin-left: auto; 
+    margin-right: auto;
+    display: inline-block; 
+    background: var(--amarillo);
+    color: var(--azul);
+    font-weight: bold;
+    padding: 12px 22px;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.boton--largo {
+
+    margin: 0 auto;
+    display: inline-block;
+
+}
+
+.boton--banner {
+
+    align-self: flex-start; 
+    margin-left: 0;
+
+}
+
+/*Hover botones*/
+
+.boton:hover,
+.boton--corto:hover,
+.boton--largo:hover,
+.boton--banner:hover {
+
+    background-color: var(--azul);   
+    color: var(--amarillo);          
+
+}
+
+
+/*Noticias*/
+
+.noticias {
+
+    padding: 64px 32px;
+    background-color: #fff;
+
+}
+
+.noticias__contenedor {
+
+    max-width: 1000px; 
+    margin: auto;
+    text-align: center;
+
+}
+
+.noticias__titulo {
+
+    font-size: 44px;
+    font-weight: bold;
+    color: var(--azul);
+    margin-bottom: 55px;
+    text-transform: uppercase;
+
+}
+
+.noticias__lista {
+
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: flex-start; 
+    gap: 30px;
+    padding: 0; 
+    margin: 0 0 40px 0;
+    list-style: none;
+
+}
+
+
+.noticias__item {
+
+    width: 310px;
+    background-color: var(--gris-noticias);
+    display: flex;
+    flex-direction: column;
+    height: 420px;
+
+}
+
+.noticias__enlace {
+
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+}
+
+.noticias__picture img {
+
+    width: 100%;
+    height: 160px;
+    object-fit: cover; 
+    display: block; 
+}
+
+
+.noticias__contenido {
+
+    padding: 20px;
+    display: flex;
+    flex-grow: 1; 
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 12px;
+    text-align: left;
+
+}
+
+.noticias__fecha {
+
+    font-size: 12px;
+    color: var(--azul);
+    text-transform: uppercase;
+
+}
+
+.noticias__encabezado {
+
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--azul);
+    margin: 0;
+
+}
+
+.noticias__parrafo {
+
+    font-size: 14px;
+    color: var(--azul);
+    margin: 0;
+    font-weight: 300;
+
+}
+
+/*Recetas*/
+
+
+.recetas {
+
+    position: relative;
+    padding: 40px;
+
+}
+
+.recetas__fondo {
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0; 
+    z-index: -2;
+    background-image: image-set(
+        url("../assets/images/home/home-menu-recetas.webp"),
+        url("../assets/images/home/home-menu-recetas.jpg")
+    );
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.recetas__contenedor {
+
+    width: 1000px;
+    max-width: 100%;
+    margin: 0 auto; 
+    padding: 15px;
+
+}
+
+
+.recetas__titulo {
+
+    text-align: center;
+    color: var(--blanco);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 25px;
+
+}
+
+
+.recetas__lista {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.recetas__item {
+
+    flex-grow: 1; 
+    flex-shrink: 1; 
+    flex-basis: 220px; 
+    max-width: 230px;  
+    display: flex;
+
+}
+
+.recetas__tarjeta {
+
+    background: var(--blanco);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    text-decoration: none;
+    color: var(--azul);
+
+}
+
+.recetas__picture {
+
+    display: block;
+
+}
+
+.recetas__imagen {
+
+    display: block;
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+
+}
+
+.recetas__contenido {
+
+    padding: 10px 12px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    flex-grow: 1; 
+
+}
+
+.recetas__encabezado {
+
+    font-size: 12px;
+    font-weight: bold;
+    color: var(--azul);
+    text-transform: uppercase;
+    margin: 0 0 8px 0;
+    line-height: 1.2; 
+
+}
+
+.recetas .boton--largo {
+
+    display: block;  
+    text-align: center;
+    margin: 24px auto 0; 
+    min-width: 200px;  
+
+}
