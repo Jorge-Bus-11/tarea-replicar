@@ -1,0 +1,12 @@
+---
+import { Image, Picture } from 'astro:assets';
+import Perro from '../assets/perro.jpg';
+---
+<a href="/about" class="block">
+  <Image 
+    src={Perro} 
+    alt="Perro gigante" 
+    class="w-full h-auto max-w-none object-cover rounded-2xl cursor-pointer hover:opacity-90 transition"
+  />
+</a>
+<p>404</p>

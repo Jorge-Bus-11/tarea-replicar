@@ -1,75 +1,84 @@
 ---
-import Plantilla from "../layouts/plantilla.astro"
-import { Image, Picture } from 'astro:assets';
-import Gernika from '../assets/Gernika.jpg';
+// src/pages/index.astro
+import Plantilla from "../layouts/plantilla.astro";
+import { Image } from 'astro:assets';
 import fondo from '../assets/fondo.jpg';
-
 ---
+<Plantilla titulo="titulo con astro" description="descripsopn con astro">
 
+  <!-- Hero -->
+  <section class="hero fade-bump" id="hero">
+    <h1>Solución SaaS para tu negocio</h1>
+    <p>Gestiona tus clientes, datos y finanzas con una plataforma moderna y eficiente.</p>
+    <div class="btn">
+      <Image src={fondo} alt="Imagen hero" />
+    </div>
+  </section>
 
-	<Plantilla titulo="titulo con astro" description="descripsopn con astro">
-        
-		
-		<section class="hero" id="hero">
-			
-			<h1>Solución SaaS para tu negocio</h1>
+  <!-- Nosotros -->
+  <div class="nosotros fade-bump">
+    <div class="nosotros-item">
+      <span class="grande">Hazlo con nosotros</span><br>
+      Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.
+    </div>
+  </div>
 
-			<p>Gestiona tus clientes, datos y finanzas con una plataforma moderna y eficiente.</p>
-			<div class="btn">
-				<!-- <img src="/images/fondo.jpg" alt="Imagen hero" /> -->
-				<Image src={fondo} alt="" />
-			</div>
-		  </section>
-		  <div class="nosotros"> <div class="nosotros-item"><span class="grande">Hazlo con nosotros</span> <br>
-			Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</div></div>
-		  <section class="features" id="features">
-		   
-			<div class="feature-item">
-			  <h3>Gestión de contenidos</h3>
-			  <p>Controla todo tu contenido desde un solo lugar.</p>
-			</div>
-			<div class="feature-item">
-			  <h3>Gestión de datos</h3>
-			  <p>Analiza y procesa datos fácilmente con nuestras herramientas.</p>
-			</div>
-			<div class="feature-item">
-			  <h3>Interacción comunitaria</h3>
-			  <p>Conecta con tus usuarios y crea comunidad.</p>
-			</div>
-		  </section>
-		  <section class="section" id="about">
-			<div class="content">
-			  <h2>Analiza datos financieros</h2>
-			  <p>
-				Nuestra plataforma te ofrece herramientas avanzadas para monitorear y predecir el 
-				comportamiento financiero de tu proyecto. Toma decisiones basadas en datos reales.
-			  </p>
-			</div>
-			<img src="/images/mujer.jpg"  alt="mujer decidiendo" />
-		  </section>
-		  <button class="boton">know more</button>
-		<section class="section">
-			<img src="/images/hombre.jpg" alt="hombre decidiendo ">
-			<div class="content">
-				<h2>Construye relaciones más fuertes con tus clientes</h2>
-				<p>
-				  Con funciones centradas en la experiencia del usuario podrás fidelizar y mantener 
-				  la satisfacción alta.
-				</p>
-			  </div>
-		</section>
-		
-  <section class="testimonial">
+  <!-- Features -->
+  <section class="features fade-bump" id="features">
+    <div class="feature-item">
+      <h3>Gestión de contenidos</h3>
+      <p>Controla todo tu contenido desde un solo lugar.</p>
+    </div>
+    <div class="feature-item">
+      <h3>Gestión de datos</h3>
+      <p>Analiza y procesa datos fácilmente con nuestras herramientas.</p>
+    </div>
+    <div class="feature-item">
+      <h3>Interacción comunitaria</h3>
+      <p>Conecta con tus usuarios y crea comunidad.</p>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section fade-bump" id="about">
+    <div class="content">
+      <h2>Analiza datos financieros</h2>
+      <p>
+        Nuestra plataforma te ofrece herramientas avanzadas para monitorear y predecir el 
+        comportamiento financiero de tu proyecto. Toma decisiones basadas en datos reales.
+      </p>
+    </div>
+    <img src="/images/mujer.jpg" alt="mujer decidiendo" />
+  </section>
+
+  <button class="boton">know more</button>
+
+  <!-- Relaciones con clientes -->
+  <section class="section fade-bump">
+    <img src="/images/hombre.jpg" alt="hombre decidiendo">
+    <div class="content">
+      <h2>Construye relaciones más fuertes con tus clientes</h2>
+      <p>
+        Con funciones centradas en la experiencia del usuario podrás fidelizar y mantener 
+        la satisfacción alta.
+      </p>
+    </div>
+  </section>
+
+  <!-- Testimonial -->
+  <section class="testimonial fade-bump">
     <blockquote>
       Cras malesuada fermentum sollicitudin. Ut at nunc ut lectus interdum consectetur et quis erat. Etiam vel lacus ex.
     </blockquote>
     <cite>— Ali Sayed</cite>
   </section>
 
-  <section class="cta" id="signup">
+  <!-- CTA -->
+  <section class="cta fade-bump" id="signup">
     <h2>¿Listo para comenzar?</h2>
     <a href="#contact">Regístrate Hoy</a>
   </section>
 
-	</Plantilla>
+</Plantilla>
+
 
