@@ -117,8 +117,9 @@ html, body {
   height: 100%;
   margin: 0;
   display: flex;
-  height: 100%;
-  width: 100%;
+  flex-direction: column;
+height: 100%;
+width: 100%;
 }
 body {
     margin: 0;
@@ -126,10 +127,8 @@ body {
     line-height: 1.6;
     color: #333;
     font-family: 'Playfair Display', serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    line-height: 1.6;
+    
+   
   }
   .boton {border-radius: 30px;
       width: 200px;
@@ -277,6 +276,9 @@ align-items: center;
   .section .content {
     max-width: 700px;
     margin: 0 auto;
+  }
+  .fade-bump{
+    display: flex;
   }
   .testimonial {
     padding: 60px 40px;
