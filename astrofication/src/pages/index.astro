@@ -3,9 +3,6 @@
 import Plantilla from "../layouts/plantilla.astro";
 import { Image } from 'astro:assets';
 import fondo from '../assets/fondo.jpg';
-import Hombre from '../assets/hombre.jpg';
-import Mujer from '../assets/mujer.jpg';
-
 ---
 <Plantilla titulo="titulo con astro" description="descripsopn con astro">
 
@@ -51,14 +48,14 @@ import Mujer from '../assets/mujer.jpg';
         comportamiento financiero de tu proyecto. Toma decisiones basadas en datos reales.
       </p>
     </div>
-    <Image src={Mujer} alt="mujer decidiendo" />
+    <img src="/images/mujer.jpg" alt="mujer decidiendo" />
   </section>
 
   <button class="boton">know more</button>
 
   <!-- Relaciones con clientes -->
   <section class="section fade-bump">
-    <Image src={Hombre} alt="hombre decidiendo">
+    <img src="/images/hombre.jpg" alt="hombre decidiendo">
     <div class="content">
       <h2>Construye relaciones más fuertes con tus clientes</h2>
       <p>
